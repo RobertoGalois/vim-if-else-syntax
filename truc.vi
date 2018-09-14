@@ -1,0 +1,5 @@
+Syntax: 
+(Condition) ? 'expr1' : 'expr2'
+
+Example:
+map <expr> <C-D> (&hlsearch ==? 0) ? ':set hlsearch<enter>' : ':set nohlsearch<enter>'
